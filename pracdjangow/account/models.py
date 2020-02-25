@@ -12,6 +12,7 @@ class MyAccountManager(BaseUserManager):
             raise ValueError("user must have sex")
         if not first_name:
             raise ValueError("user must have a firstname")
+
         user = self.model(
             email = self.normalize_email(email),
             username = self.username, 

@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'users',
     'investor',
     'account',
+    'businessowner',
     'graphene_django',
     'django.contrib.admin',
     'django.contrib.auth',
