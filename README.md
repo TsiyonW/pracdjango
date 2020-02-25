@@ -1,1 +1,3 @@
 # pracdjango
+
+Django, PostgreSQL, GraphQL
